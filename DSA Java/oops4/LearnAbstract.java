@@ -60,3 +60,12 @@ class Car extends Vehicle{
          System.out.println("Car is honks");
     }
 }
+
+
+
+//       output=>
+
+
+// Car is Accelerate
+// Car breaks are puched
+// Car is honks
