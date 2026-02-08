@@ -7,7 +7,7 @@ public class LearnList {
 
 
         List<Integer> list = new ArrayList<>();   //its Dynamic in Nature
-        List<Integer> list2 = new ArrayList<>();
+        List<Integer> list2 = new LinkedList<>();
         list.add(21);
         list.add(22);
         list.add(23);
@@ -39,8 +39,20 @@ public class LearnList {
 
         // list.removeAll(list2);          // for union remove
 
-        list.retainAll(list2);                 //For intersection remove
+        // list.retainAll(list2);                 //For intersection remove
+
+
+        // list.clear();                      //for clear list use this keyword
+
+        Object a[] = list.toArray();
+        // Integer temp = (Integer) e;
+        for(Object e: a){
+            System.out.println(e);
+        }
         System.out.println(list);
+
+
+
 
 
 
