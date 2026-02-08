@@ -7,16 +7,18 @@ public class LearnList {
 
 
         List<Integer> list = new ArrayList<>();   //its Dynamic in Nature
+        List<Integer> list2 = new ArrayList<>();
         list.add(21);
         list.add(22);
         list.add(23);
         list.add(24);
         list.add(25);
         list.add(26);
-        list.add(27);
-        list.add(28);
-        list.add(29);
-        list.add(30);
+
+        list2.add(21);
+        list2.add(22);
+        list2.add(77);
+        list2.add(30);
 
         System.out.println("I Am Collection of Array: "+list);
         System.out.println("My size is: "+list.size());
@@ -26,9 +28,22 @@ public class LearnList {
         list.remove(5);
         System.out.println("I am removeing this Index from this Array : "+list);
 
+        list.addAll(list2);
+        System.out.println(list);
+        
 
-        list.remove(Integer.valueOf(30));
+
+        list.remove(Integer.valueOf(23));
         System.out.println("I am removeing this Element from this Array : "+list);
+
+
+        // list.removeAll(list2);          // for union remove
+
+        list.retainAll(list2);                 //For intersection remove
+        System.out.println(list);
+
+
+
         
     }
 
