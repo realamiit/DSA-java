@@ -1,15 +1,13 @@
- import java.util.*;
-public class ListMore {
+import java.util.*;
+public class LinkedList {
 
-    public static void main(String[]args){
-        List<String>   fruits = new ArrayList<>();
+     public static void main(String[]args){
+
+        List<String> fruits = new java.util.LinkedList<>();
 
         fruits.add("Mango");
         fruits.add("Pineapple");
         fruits.add("Litchi");
-        fruits.add("Apple");
-        fruits.add("Litchi");
-        fruits.add("Stroberry");
         fruits.add("Banana");
         fruits.add("Orange");
 
