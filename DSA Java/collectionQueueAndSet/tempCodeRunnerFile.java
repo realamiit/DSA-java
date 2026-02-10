@@ -1,3 +1,4 @@
-while(!queue.isEmpty()){
-        //     System.out.println(queue.poll());
-        // }
+System.out.println(dq.pollFirst()); 
+        // System.out.println(dq.pollLast()); 
+
+        // System.out.println(dq);
