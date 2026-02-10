@@ -7,6 +7,9 @@ public class LearnDeque {
 
     public static void main(String[]args){
 
+        // this type of concept use on sliding windows ke Case me 
+        // jha pe hm loog eek Queue me dono side se valu le rhe ho 
+
         ArrayDeque<Integer> dq = new ArrayDeque<>();
         dq.offer(55);
         dq.offerFirst(44);
