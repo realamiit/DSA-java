@@ -32,6 +32,11 @@ public class LearnQueue {
         while(!queue.isEmpty()){
             System.out.println(queue.poll());
         }
+
+            // System.out.println(queue.remove());      //it throw the Execption also 
+                                                        //(Exception in thread "main" java.util.NoSuchElementException)
+
+        System.out.println(queue);    // the output is [] or null  
         
     }
 
