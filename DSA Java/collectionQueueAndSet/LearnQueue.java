@@ -16,12 +16,10 @@ public class LearnQueue {
 //       both are same work
 
 //// offer return Boolean & don't return Execption also
-
         queue.offer(80);
         queue.offer(90);
         queue.offer(100);
         queue.offer(110);
-
 
         System.out.println(queue);
 
@@ -31,13 +29,10 @@ public class LearnQueue {
         // System.out.println(queue.peek());
         // System.out.println(queue);
 
-
         while(!queue.isEmpty()){
             System.out.println(queue.poll());
         }
         
-
-
     }
 
 }
