@@ -2,6 +2,8 @@ public class MainInEncapsulation {
 
     public static void main (String[] args){
 
+        // here we cant extend are person.java class Just like Extanding
+
         // Person p1 = new Person();
         // p1.setAge(-25);
         // p1.setName("Amit");
