@@ -1,12 +1,12 @@
 public class Person {
     private int age;
-    private String name;
+    private String name;   // this Name type of String
 
-    public int getAge() {
+    public int getAge() {  // this Age type of INtiger
         return this.age;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age) {  
         this.age = age;
     }
 
