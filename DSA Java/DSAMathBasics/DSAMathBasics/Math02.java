@@ -30,16 +30,16 @@ public class Math02 {
             System.out.println(a + " is Odd");
         }
 
-        // Maximum
+        // Maximum  number
         int max = (a > b) ? a : b;
-        System.out.println("Max number: " + max);
+        System.out.println("Max of the number: " + max);
 
-        // Factorial
+        // Factorial number 
         int fact = 1;
         for (int i = 1; i <= a; i++) {
             fact *= i;
         }
-        System.out.println("Factorial of " + a + " is: " + fact);
+        System.out.println("Factorial of the number" + a + " is: " + fact);
 
         sc.close();
     }
