@@ -3,12 +3,12 @@ public class WrapperClass {
 
         Integer obj = Integer.valueOf(18); 
 
-        Integer obj2 = Integer.valueOf(17); // ✅ correct
+        Integer obj2 = Integer.valueOf(17); //  correct
 
         Boolean myBoolean = Boolean.valueOf(false);
 
-        Integer obj3 = 12;  // ✅ autoboxing
+        Integer obj3 = 12;  //  autoboxing
 
-        int age = obj;   // ✅ unboxing
+        int age = obj;   //  unboxing
     }
 }
