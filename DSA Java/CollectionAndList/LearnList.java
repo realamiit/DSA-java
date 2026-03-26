@@ -1,12 +1,13 @@
-// import java.utli.ArrayList;
-// import java.utli.List;
-    import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ArrayList;
+    // import java.util.*;
 public class LearnList {
     public static void main(String[]args){
         // int a[] = newInt[5];            // this one also static
 
-
-        List<Integer> list = new ArrayList<>();   //its Dynamic in Nature
+//its Dynamic in Nature
+       List<Integer> list = new ArrayList<>();
         List<Integer> list2 = new LinkedList<>();
         list.add(21);
         list.add(22);

@@ -1,63 +1,59 @@
-public class LearnAnonymous{
-
-    // class learninnerclass extends Outerclass{
-
-    // }
-    
-
-    Outerclass obj = new Outerclass(){             //class
-        void sing(){                         //method
-
-
-        }
-        public void outerMethod(){
-
-        }
-    };
-
-    SuperInterface obj2 = new SuperInterface(){
-
-        @Override
-        public void interfaceMethod(){
-
-        }
-    };
-
-    
+public class LearnAnonymous {
 
     public static void main(String[] args){
-       WalkAble walkAble = (int steps) ->{
-        System.out.println("walked"+steps+"steps");
-        return steps;
-    };
-    walkAble.walks(5);
 
-    WalkAble obj2 = (int steps) -> 2*steps;
-    
-    System.out.println(obj2.walks(8));
+        // Anonymous class (class)
+        Outerclass obj = new Outerclass(){
+            @Override
+            public void outerMethod(){
+                System.out.println("Outer method overridden");
+            }
+        };
 
+        obj.outerMethod();
+
+        // Anonymous class (interface)
+        SuperInterface obj2 = new SuperInterface(){
+            @Override
+            public void interfaceMethod(){
+                System.out.println("Interface implemented");
+            }
+        };
+
+        obj2.interfaceMethod();
+
+        // Lambda
+        WalkAble walkAble = (steps) -> {
+            System.out.println("Walked " + steps + " steps");
+            return steps;
+        };
+
+        walkAble.walks(5);
+
+        // Short lambda
+        WalkAble obj3 = (steps) -> 2 * steps;
+
+        System.out.println(obj3.walks(8));
     }
 }
 
-
-interface WalkAble{
-
+interface WalkAble {
     int walks(int steps);
 }
 
-class Outerclass{                                    //Class
-    public void outerMethod(){        //Method
-
-    }  
+class Outerclass {
+    public void outerMethod(){
+        System.out.println("Original method");
+    }
 }
 
 @FunctionalInterface
-interface SuperInterface{
+interface SuperInterface {
     void interfaceMethod();
 }
 
 
-//        output
+//        ******output*******
 
-// walked5steps
+// Walked 5 steps
 // 16

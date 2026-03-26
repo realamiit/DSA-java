@@ -7,7 +7,8 @@ public class Person {
      boolean canBeaccessed = false;
 
     public int getAge() {
-        if (canBeaccessed); return age;
+        if (canBeaccessed)
+             return age;
         return -1;
     }
 
