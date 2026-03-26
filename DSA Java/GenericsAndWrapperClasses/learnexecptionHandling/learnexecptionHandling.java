@@ -1,4 +1,5 @@
-public class FinellyBlockInException {
+package learnexecptionHandling;
+public class learnexecptionHandling {
 
     public static void main(String[]args){
 
