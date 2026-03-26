@@ -1,15 +1,14 @@
 public class WrapperClass {
-    public static void main(String[]args){
+    public static void main(String[] args){
 
-        Integer obj = new Integer(18);
+        Integer obj = Integer.valueOf(18); 
 
-        Integer obj2 = Integer.ValueOf(17);
+        Integer obj2 = Integer.valueOf(17); // ✅ correct
 
-        Boolean myBoolean = Boolean.ValueOf(false);
+        Boolean myBoolean = Boolean.valueOf(false);
 
-        Integer obj3 = 12;  //autoboxing
+        Integer obj3 = 12;  // ✅ autoboxing
 
-        int age = obj;   //unboxing
+        int age = obj;   // ✅ unboxing
     }
-
 }
