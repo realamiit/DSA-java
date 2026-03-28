@@ -11,6 +11,7 @@ public class Math02 {
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
 
+        
         // Basic operations
         System.out.println("Addition: " + (a + b));
         System.out.println("Subtraction: " + (a - b));
@@ -40,7 +41,6 @@ public class Math02 {
             fact *= i;
         }
         System.out.println("Factorial of the number" + a + " is: " + fact);
-
         sc.close();
     }
 }
