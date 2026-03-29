@@ -1,3 +1,5 @@
+package learnexecptionHandling;
+
 public class MainClass {
     public static void main (String[] args){
 
@@ -9,8 +11,6 @@ public class MainClass {
 
         try{
             System.out.println(a[7]);
-
-            int result = 6/0;
         } catch (ArrayIndexOutOfBoundsException e){
             System.out.println("i am exception jere right now");
             
