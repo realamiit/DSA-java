@@ -1,5 +1,3 @@
-package learnexecptionHandling;
-
 import java.util.Scanner;
 
 public class CustomExceptions {
