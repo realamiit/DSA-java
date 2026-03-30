@@ -12,7 +12,7 @@ public class Math07MathToolkit {
         return a;
     }
 
-    // LCM using GCD
+    // this is the LCM using GCD 
     static int lcm(int a, int b) {
         return (a * b) / gcd(a, b);
     }
