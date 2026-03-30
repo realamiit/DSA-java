@@ -17,6 +17,7 @@ public class Math07MathToolkit {
         return (a * b) / gcd(a, b);
     }
 
+    
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
