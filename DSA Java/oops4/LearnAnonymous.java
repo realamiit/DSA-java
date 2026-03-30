@@ -1,5 +1,4 @@
 public class LearnAnonymous {
-
     public static void main(String[] args){
 
         // Anonymous class (class)
@@ -36,7 +35,6 @@ public class LearnAnonymous {
         System.out.println(obj3.walks(8));
     }
 }
-
 interface WalkAble {
     int walks(int steps);
 }
