@@ -11,11 +11,9 @@ public class Math06LCMExample {
         }
         return a;
     }
-
     static int lcm(int a, int b) {
         return (a * b) / gcd(a, b);
     }
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
