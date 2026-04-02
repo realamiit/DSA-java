@@ -16,7 +16,7 @@ public class CustomExceptions {
 
             throw new ArithmeticException("More than 100 not Allowed");
         }
-    }catch(Exception e){
+    }catch(Exception e){     // here catch the output 
         System.out.println(e);
     }
 
