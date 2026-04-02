@@ -1,7 +1,7 @@
 public class GenericMethods {
     public static void main(String[]args){
 
-        // here we take data
+        // ************* here we take data *********
         // printData("Hello Im amit gupta");  //String
         printData(23445);                  //Integer    
         // printData(true);                   //Boolean 
