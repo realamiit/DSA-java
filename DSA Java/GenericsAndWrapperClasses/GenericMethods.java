@@ -17,7 +17,6 @@ public class GenericMethods {
          obj.doubleData(custom);
     }
 
-   
 
     static<E extends Number> void printData(E data){   //After (E) put this we can also Pass any type of DataType 
         System.out.println(data);
