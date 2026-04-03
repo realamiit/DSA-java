@@ -51,12 +51,6 @@ public class LearnList {
             System.out.println(e);
         }
         System.out.println(list);
-
-
-
-
-
-
         
     }
 
