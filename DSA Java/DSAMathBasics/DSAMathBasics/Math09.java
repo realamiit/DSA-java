@@ -12,3 +12,8 @@ public class Math09 {
     }
 
 }
+
+// complexity
+// Time => O(1)
+// Space => O(1)
+// because its constant
