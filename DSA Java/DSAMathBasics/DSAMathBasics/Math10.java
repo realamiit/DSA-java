@@ -16,6 +16,12 @@ public class Math10 {
         int anss = (num3*num4);
 
         System.out.println(anss);  //underFlow : from backside overflow
+
+        int num5 = 15;
+        int num6 = 3;
+
+        int ansss = num5 * num6;
+        System.out.println(ansss);
     }
 
 }
@@ -23,3 +29,4 @@ public class Math10 {
 // output is 
 // OverFlow: -965732380
 // underFlow: 1425618542
+// 45
