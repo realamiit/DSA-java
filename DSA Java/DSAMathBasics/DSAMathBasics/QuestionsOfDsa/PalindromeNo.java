@@ -29,7 +29,7 @@ public class PalindromeNo {
             System.out.println("Not a Palindrome Number");
         }
 
-        c.close();
+        sc.close();
     }
 
 }
