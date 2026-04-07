@@ -17,7 +17,7 @@ public class SumOfDigits {
     }
 
     public static void main(String[] args) {
-        int number = -23456788;
+        int number = 432176;
         sumOfDigits(number);
     }
 }
