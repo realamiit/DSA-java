@@ -27,7 +27,7 @@ public class ArmstrongNumber {
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
-        if (isArmstrong(num)) {
+        while (isArmstrong(num)) {
             System.out.println("Armstrong Number");
         } else {
             System.out.println("Not an Armstrong Number");
