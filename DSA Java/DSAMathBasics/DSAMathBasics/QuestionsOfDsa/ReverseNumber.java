@@ -53,7 +53,7 @@ public class ReverseNumber {
 
         // sc.close();
 
-        System.out.println(reverseNum(-2347));
+        System.out.println(reverseNum(23487));
     }
 
 }
