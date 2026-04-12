@@ -19,6 +19,9 @@ public class TwoSum {
     }
     throw new IllegalArgumentException("no match");
 
+//      this  is another way to solv this probleam
+
+
     //     hashMap<integer,integer>hm= new hashMap<integer,integer>();
     //     for(int i=0;i<nums.length;i++){
     //         int req_num=target_nums[i];
