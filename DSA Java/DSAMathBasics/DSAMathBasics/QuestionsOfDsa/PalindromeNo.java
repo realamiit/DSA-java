@@ -39,7 +39,7 @@ public class PalindromeNo {
 // Space → O(1)
 
 
-// // in leetcode 
+ // in leetcode 
 
 // class Solution {
 //     public boolean isPalindrome(int x) {
