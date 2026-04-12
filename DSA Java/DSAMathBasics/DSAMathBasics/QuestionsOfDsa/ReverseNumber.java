@@ -1,6 +1,6 @@
 package QuestionsOfDSA;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class ReverseNumber {
     // static int reverse(int num) {
