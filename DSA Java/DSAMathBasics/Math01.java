@@ -1,4 +1,5 @@
 public class Math01 {
+   // basics 
    
     public static void main(String[] args) {
                 int num1=10;
