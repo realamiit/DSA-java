@@ -4,7 +4,7 @@ import java.util.ArrayList;
     // import java.util.*;
 public class LearnList {
     public static void main(String[]args){
-        // int a[] = newInt[5];            // this one also static
+        // int a[] = newInt[5];            // this one is also static
 
 //its Dynamic in Nature
        List<Integer> list = new ArrayList<>();
