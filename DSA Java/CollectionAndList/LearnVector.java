@@ -7,6 +7,8 @@ public class LearnVector {
 
         List<String> fruits = new Vector<>();
 
+       // adding the fruits in type of string
+
         fruits.add("Mango");
         fruits.add("Pineapple");
         fruits.add("Banana");
