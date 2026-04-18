@@ -7,7 +7,7 @@ public class LearnVector {
 
         List<String> fruits = new Vector<>();
 
-       // adding the fruits in type of string
+       // adding the fruits in type of string  (it is also like add fruits with in your inventary and track easily)
 
         fruits.add("Mango");
         fruits.add("Pineapple");
