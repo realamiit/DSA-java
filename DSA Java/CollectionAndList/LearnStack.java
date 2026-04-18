@@ -8,7 +8,7 @@ public class LearnStack {
         fruits.push("D");
         fruits.push("E");
 
-        // pop the element From this Stack
+        // pop the element From this Stack (Matlab sare element jo stack me hai vo pop yan nikalega aur output dega us perticular Strng value kooo )
 
         System.out.println(fruits.pop());
         System.out.println(fruits.pop());
