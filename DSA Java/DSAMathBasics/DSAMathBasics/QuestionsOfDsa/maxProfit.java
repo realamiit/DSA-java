@@ -1,6 +1,23 @@
 package QuestionsOfDSA;
 
 public class maxProfit {
-    
+       public int maxProfit(int[] prices) {
+        int min = prices[0];
+        int profit = 0;
 
+        for(int i=0; i<prices.length; i++){
+
+            if(prices[i] < min){
+                min =prices[i];
+            }
+            profit = Math.max(profit, prices[i] - min);
+
+        }
+        return profit;
+    }
 }
+
+// Complexicty
+// Time: O(n)  (single pass)
+// Space: O(1)  (no extra space)
+
