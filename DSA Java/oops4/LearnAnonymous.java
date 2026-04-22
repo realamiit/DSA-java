@@ -52,6 +52,5 @@ interface SuperInterface {
 
 
 //        ******output*******
-
 // Walked 5 steps
 // 16
