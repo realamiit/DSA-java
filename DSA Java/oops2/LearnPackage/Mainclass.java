@@ -15,7 +15,7 @@ public class Mainclass {
 
         Teacher obj = new Teacher();
         obj.teachingClass =12;
-        // obj.id = 123;    //we cant access because this is private
+        // obj.id = 123;    //we can't access because this is private
        
     }
 }
