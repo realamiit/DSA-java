@@ -14,7 +14,7 @@ public class Mainclass {
         // System.out.println("Enter the size of the list:");
 
         Teacher obj = new Teacher();
-        obj.teachingClass =12;
+        obj.teachingClass =12;    // we Can able to access becauce of this class is public
         // obj.id = 123;    //we can't access because this is private
        
     }
