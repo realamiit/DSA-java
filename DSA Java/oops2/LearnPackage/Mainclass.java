@@ -18,6 +18,4 @@ public class Mainclass {
         // obj.id = 123;    //we cant access because this is private
        
     }
-
-
 }
