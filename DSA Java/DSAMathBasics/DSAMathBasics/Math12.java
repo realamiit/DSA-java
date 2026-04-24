@@ -8,8 +8,7 @@
 // System.out.println(sum);
 //     }
 // }
-
-
+// this codes are same but something missing
 public class Math12 {
     public static void main(String[] args) {
         int num = 54;
