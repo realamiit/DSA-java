@@ -17,7 +17,7 @@ public class Math12 {
 
         while(num > 0){
             int digit = num % 10;
-            sum >= digit * digit;
+            sum += digit * digit;
             num /= 10;
         }
 
