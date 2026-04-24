@@ -6,7 +6,6 @@ public class LearnModulo {
         int ans = num1 % num2;
         System.out.println(ans);
     }
-
 }
 
 // Time Complexity => O(1)
