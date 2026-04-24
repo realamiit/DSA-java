@@ -6,7 +6,7 @@ public class LearnQueue {
     public static void main(String[]args){
         Queue <Integer> queue = new LinkedList<>();
 
-////         it throw Execption also 
+//        it throw Execption also 
         // queue.add(10);
         // queue.add(20);
         // queue.add(30);
@@ -15,7 +15,7 @@ public class LearnQueue {
 
 //       both are same work
 
-//// offer return Boolean & don't return Execption also
+// offer return Boolean & don't return Execption also
         queue.offer(80);
         queue.offer(90);
         queue.offer(100);
