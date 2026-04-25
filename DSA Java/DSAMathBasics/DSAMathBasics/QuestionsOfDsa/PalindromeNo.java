@@ -24,7 +24,7 @@ public class PalindromeNo {
         int num = sc.nextInt();
 
         if (isPalindrome(num)) {
-            System.out.println("Palindrome Number");
+            System.out.println("Palindrome Number Because After Forwarding and backwording not change the intiger value");
         } else {
             System.out.println("Not a Palindrome Number Because not in same form after forword and Backword");
         }
