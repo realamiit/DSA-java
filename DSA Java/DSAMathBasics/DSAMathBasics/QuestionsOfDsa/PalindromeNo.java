@@ -26,7 +26,7 @@ public class PalindromeNo {
         if (isPalindrome(num)) {
             System.out.println("Palindrome Number");
         } else {
-            System.out.println("Not a Palindrome Number");
+            System.out.println("Not a Palindrome Number Because not in same form after forword and Backword");
         }
 
         sc.close();
