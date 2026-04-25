@@ -1,7 +1,3 @@
-// import java.util.Scanner;
-// import java.util.List;
-// import java.util.ArrayList;
-
 // import java.util.*;
 
 public class Mainclass {
@@ -14,10 +10,8 @@ public class Mainclass {
         // System.out.println("Enter the size of the list:");
 
         Teacher obj = new Teacher();
-        obj.teachingClass =12;
-        // obj.id = 123;    //we cant access because this is private
+        obj.teachingClass =12;    // we Can able to access becauce of this class is public
+        // obj.id = 123;    //we can't access because this is private
        
     }
-
-
 }
