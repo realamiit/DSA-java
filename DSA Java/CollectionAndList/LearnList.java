@@ -32,17 +32,12 @@ public class LearnList {
         list.addAll(list2);
         System.out.println(list);
         
-
-
         list.remove(Integer.valueOf(23));
         System.out.println("I am removeing this Element from this Array : "+list);
 
 
         // list.removeAll(list2);          // for union remove
-
         // list.retainAll(list2);                 //For intersection remove
-
-
         // list.clear();                      //for clear list use this keyword
 
         Object a[] = list.toArray();
