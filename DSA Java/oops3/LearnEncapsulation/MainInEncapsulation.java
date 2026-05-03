@@ -1,6 +1,6 @@
 public class MainInEncapsulation {
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         // here we cant extend are person.java class Just like Extanding
 
@@ -8,16 +8,15 @@ public class MainInEncapsulation {
         // p1.setAge(-25);
         // p1.setName("Amit");
 
-       
-                // System.out.println("Age is: " + p1.getAge());
-                // System.out.println("Name is: " + p1.getName());
+        // System.out.println("Age is: " + p1.getAge());
+        // System.out.println("Name is: " + p1.getName());
 
         Person p2 = new Person();
         p2.setAge(30);
         p2.setName("Rahul");
 
-                System.out.println("Age is: " + p2.getAge());
-                System.out.println("Name is: " + p2.getName());
+        System.out.println("Age is: " + p2.getAge());
+        System.out.println("Name is: " + p2.getName());
     }
 
 }

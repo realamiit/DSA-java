@@ -1,6 +1,6 @@
 public class myAtio {
 
-     public int myAtoi(String s) {
+    public int myAtoi(String s) {
         int i = 0, n = s.length();
         while (i < n && s.charAt(i) == ' ') {
             i++;
@@ -16,11 +16,11 @@ public class myAtio {
             if (result > (Integer.MAX_VALUE - digit) / 10) {
                 return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
-            
+
             result = result * 10 + digit;
             i++;
         }
-        
+
         return result * sign;
     }
 }
