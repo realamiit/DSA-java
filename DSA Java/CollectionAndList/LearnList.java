@@ -15,7 +15,7 @@ public class LearnList {
         list.add(24);
         list.add(25);
         list.add(26);
-        list.add(27)
+        list.add(27);
 
         list2.add(21);
         list2.add(22);
