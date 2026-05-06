@@ -18,5 +18,4 @@ public class MainInEncapsulation {
         System.out.println("Age is: " + p2.getAge());
         System.out.println("Name is: " + p2.getName());
     }
-
 }
