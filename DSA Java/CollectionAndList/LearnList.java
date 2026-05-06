@@ -4,9 +4,9 @@ import java.util.ArrayList;
     // import java.util.*;
 public class LearnList {
     public static void main(String[]args){
-        // int a[] = newInt[5];            // this one is also static
+        // int a[] = newInt[5];            // this one is also static we can't change anything  
 
-//its Dynamic in Nature
+//its Dynamic in Nature we can do any changes 
        List<Integer> list = new ArrayList<>();
         List<Integer> list2 = new LinkedList<>();
         list.add(21);
@@ -15,6 +15,7 @@ public class LearnList {
         list.add(24);
         list.add(25);
         list.add(26);
+        list.add(27);
 
         list2.add(21);
         list2.add(22);
