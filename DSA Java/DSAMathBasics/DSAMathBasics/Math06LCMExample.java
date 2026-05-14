@@ -4,7 +4,7 @@ public class Math06LCMExample {
     // Java Code LCM
     static int gcd(int a, int b) {
         while (b != 0) {
-            int temp = b;
+            int temp = b;   // LCM(a, b) = (a × b) / GCD(a, b)  ===   LCM(12, 8) = (12 × 8) / 4 = 96 / 4 = 24
             b = a % b;
             a = temp;}
         return a;
