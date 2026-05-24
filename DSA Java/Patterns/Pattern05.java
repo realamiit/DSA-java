@@ -4,5 +4,4 @@ public class Pattern05 {
             System.out.println();
         }
     }
-
 }
