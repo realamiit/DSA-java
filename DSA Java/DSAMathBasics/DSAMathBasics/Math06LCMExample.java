@@ -1,31 +1,24 @@
 import java.util.Scanner;
 
 public class Math06LCMExample {
-    // Java Code (LCM using GCD)
-
+    // Java Code LCM
     static int gcd(int a, int b) {
         while (b != 0) {
-            int temp = b;
+            int temp = b;   // LCM(a, b) = (a × b) / GCD(a, b)  ===   LCM(12, 8) = (12 × 8) / 4 = 96 / 4 = 24
             b = a % b;
-            a = temp;
-        }
+            a = temp;}
         return a;
     }
     static int lcm(int a, int b) {
         return (a * b) / gcd(a, b);
     }
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter first number: ");
         int a = sc.nextInt();
-
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
-
         System.out.println("LCM: " + lcm(a, b));
-
         sc.close();
     }
 }
