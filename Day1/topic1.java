@@ -14,3 +14,10 @@ public class topic1 {
     }
 
 }
+
+
+
+// basics hai isme hm pehele string lege name  fir int age  fir double lege 
+// fir bollean value lene ke baad let me explain u bollean value means for sure ye always value output degta hai true ya false deta hai
+//  fir sout ya System.out.println(name + age + cgpa + examPass);
+// than our outout comes 
