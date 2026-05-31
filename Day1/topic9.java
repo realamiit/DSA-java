@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class topic9 {
     public static void main(String[] args) {
-        Scanner sc =  new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Your Name");
         String name = sc.nextLine();
@@ -14,11 +14,22 @@ public class topic9 {
         System.out.println(name.length());
         System.out.println(name.toUpperCase());
         System.out.println(name.charAt(0));
-        
-        
+
     }
 
 }
 
+// pehele Scanner liya for input and import on before class ant than
+// use to print name
+// use to print arr length '
+// use to the user print in upper case
 
-//  pehele 
+// print charAt to know the character to know thethere Index of chat at which no
+// is Store on that place 
+// output is:
+// Enter Your Name
+// Amit Gupta 
+// Amit Gupta 
+// 11
+// AMIT GUPTA 
+// A
