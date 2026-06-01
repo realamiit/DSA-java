@@ -46,4 +46,4 @@ public class topic11 {
 
 
 // to optimal 
-// first intiger arr liya to store the value of the intiger usnme 5 input liya jissee vo input store krne ke liye hme use krna hota hai 
+// first intiger arr liya to store the value of the intiger usnm 5 input liya jissee vo input store krne ke liye hme use krna hota hai 
