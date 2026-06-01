@@ -31,6 +31,8 @@ public class topic2 {
         double cgpa = sc.nextDouble();
 
         System.out.println(name + " ki age " + age + " hai aur CGPA " + cgpa + " hai");
+
+        sc.close();
         
     }
 

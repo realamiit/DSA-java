@@ -15,6 +15,8 @@ public class topic9 {
         System.out.println(name.toUpperCase());
         System.out.println(name.charAt(0));
 
+        sc.close();
+
     }
 
 }
