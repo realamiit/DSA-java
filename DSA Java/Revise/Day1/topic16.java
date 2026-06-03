@@ -12,3 +12,12 @@ public class topic16 {
 
 // use of Split(); to count the spaces aaye vhaaa se tood do aur kitne chunk bne return kr do
 // tahan we got  in this String Hello Space world
+
+
+String[] arr = {"Hello world"};
+        for(int i = length-1; i>=0; i--){
+        System.out.println(arr [i]);
+            
+        }
+
+// to reverse te array thus merhod apply 
