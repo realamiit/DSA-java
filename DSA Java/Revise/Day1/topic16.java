@@ -9,3 +9,6 @@ public class topic16 {
     }
     
 }
+
+// use of Split(); to count the spaces aaye vhaaa se tood do aur kitne chunk bne return kr do
+// tahan we got 2 in this String Hello Space world
