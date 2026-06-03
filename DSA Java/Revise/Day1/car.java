@@ -6,7 +6,9 @@ public class Car {
     int speed;
 
     Car(String Brand, String Color, int Speed) {
-        this.brand = Brand;
+        this.brand = Brand; // this : is object ki uski kudki apni value hai
+                            // Jaise c1.brand alag, c2.brand alag — this ensure karta hai ki apne hi object
+                            // ki field set ho!
         this.color = Color;
         this.speed = Speed;
     }
