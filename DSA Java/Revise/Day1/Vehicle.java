@@ -5,13 +5,13 @@ public class Vehicle {
     int speed;
 
     void move() {
-        System.out.println(brand + "Chal rhi hai ");
+        System.out.println(brand + " Chal rhi hai ");
     }
 }
 
 class Bike extends Vehicle {
     void wheelie() {
-        System.out.println(brand + "Chal rhi hai");
+        System.out.println(brand + " Chal rhi hai");
     }
 
     public static void main(String[] args) {
@@ -24,3 +24,10 @@ class Bike extends Vehicle {
     }
 
 }
+
+// vehicle class bnanaya fir usme brand, speed, move() method banaya fir 
+// bike extends vehicle se extrect ya inherit kiya taki iske function aaye 
+// aona wheelie() method me  main ko object banake  dono method ko call kiya mtlb 
+// b.move();   ,,,   b.wheelie(); method ko call kiya to output milaaa  :
+// YamahaChal rhi hai gadi
+// YamahaChal rhi hai
