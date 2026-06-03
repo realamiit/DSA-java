@@ -2,7 +2,7 @@ package Day1;
 
 public class topic16 {
     public static void main(String[] args) {
-        String arr = "Hello world";
+        String arr = "Hello Friends I am Amit Gupta I am Passonate to bring myself";
 
         String[] words = arr.split(" "); 
         System.out.println(words.length);
@@ -11,4 +11,4 @@ public class topic16 {
 }
 
 // use of Split(); to count the spaces aaye vhaaa se tood do aur kitne chunk bne return kr do
-// tahan we got 2 in this String Hello Space world
+// tahan we got  in this String Hello Space world
