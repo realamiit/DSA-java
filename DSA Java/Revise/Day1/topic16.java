@@ -10,5 +10,7 @@ public class topic16 {
     
 }
 
-// use of Split(); to count the spaces aaye vhaaa se tood do aur kitne chunk bne return kr do
+// use of Split(); to count the spaces  
+// "kyuch bhi hm log double inverted comma ke undr rkhte hai vha se break krega thats it "
+// aaye vhaaa se tood do aur kitne chunk bne return kr do
 // tahan we got  in this String Hello Space world
