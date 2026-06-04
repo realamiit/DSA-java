@@ -14,7 +14,8 @@ class Dog extends Animal {
     String name = "Dog";
 
     void show() {
-        
+        System.out.println(name);
+        System.out.println(super.name);
         super.eat();
 
     }
