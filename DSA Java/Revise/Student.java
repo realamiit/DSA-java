@@ -14,20 +14,20 @@ public class Student {
 
     // main object lass hai ye
     public static void main(String[] args) {
-        Student s = new Student(); // object is here
-        Student s1 = new Student();
+        Student s1 = new Student(); // object is here
+        Student s2 = new Student();
 
-        s.Name = "Amit"; // this is object
-        s.rollNo = 22;
-        s.marks = 78;
-        s.result = 
+        s1.Name = "Amit"; // this is object
+        s1.rollNo = 22;
+        s1.marks = 78;
+        s1.result = 
 
-        s1.Name = "Ashish";
-        s1.rollNo = 31;
-        s1.marks = 82;
+        s2.Name = "Ashish";
+        s2.rollNo = 31;
+        s2.marks = 82;
 
-        s.introduce(); // here calling onject here
-        s1.introduce();
+        s1.introduce(); // here calling onject here
+        s2.introduce();
 
     }
 }
