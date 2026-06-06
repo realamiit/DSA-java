@@ -11,3 +11,7 @@ public class topic15 {
     }
 
 }
+
+// compelxicity : 
+// Time  O(nScuare)
+// Space complexicity is also not O(n) because it will take no more extra Space it the code

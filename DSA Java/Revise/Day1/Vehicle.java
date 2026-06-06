@@ -15,19 +15,18 @@ class Bike extends Vehicle {
     }
 
     public static void main(String[] args) {
-        Bike b = new Bike();
+        Bike b = new Bike();{}
         b.brand = "Yamaha";
         b.speed = 120;
         b.move();
         b.wheelie();
-
     }
 
 }
 
 // vehicle class bnanaya fir usme brand, speed, move() method banaya fir 
-// bike extends vehicle se extrect ya inherit kiya taki iske function aaye 
+// bike extends vehicle se ya inherit kiya taki iske function aaye 
 // aona wheelie() method me  main ko object banake  dono method ko call kiya mtlb 
-// b.move();   ,,,   b.wheelie(); method ko call kiya to output milaaa  :
+// b.move();  b.wheelie(); method ko call kiya to output milaa :
 // YamahaChal rhi hai gadi
 // YamahaChal rhi hai

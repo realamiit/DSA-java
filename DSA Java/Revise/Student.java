@@ -34,7 +34,7 @@ public class Student {
 
 // ye upr jo class bhi field aur method main() se bahr object main() ye object
 // ke under hota hai hamesha 
-//pehele field bnaaya mtlb classs bnaya fir usme name , rollno and marks diya fir uske baad and haa rrmember
+//pehele field bnaaya mtlb classs bnaya fir usme name , rollno and marks diya fir uske baad and haa rmember
 //  ye class ke under hi bnega kyuki class ke kyuki claske undr is liye rhegi kyuki 
 // student ke undr ki uski khudki property rhegi n is liye field ko class ke undr likhte hai 
 //  for example we  tere pass eek Adhar card hai jo ki tera hai to uske name Amit Gupta,dob 15/03/2005 amd address
