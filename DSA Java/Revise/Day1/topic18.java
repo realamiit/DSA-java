@@ -3,7 +3,7 @@ package Day1;
 public class topic18 {
     public static void main(String[] args) {
        String arr = "Hello world";
-        for(int i = arr.length()-1; i>=0; i--){
+        for(int i = arr.length()-1; i>=0; i++){
         System.out.print(arr.charAt(i));
             
         }
