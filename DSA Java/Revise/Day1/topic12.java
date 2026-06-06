@@ -16,3 +16,4 @@ public class topic12 {
 
 }
   // find the max of this given arr array 
+  //  biggest no of this array find out of this num arr
