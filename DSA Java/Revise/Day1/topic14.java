@@ -7,9 +7,10 @@ public class topic14 {
         for (int i = num.length- 1; i >= 0; i--) {
             System.out.println(num[i]);
         }
+        System.out.println(num.length);
     }
 
 }
 
 
-// reverse the array using for loop
+// reverse the array using for loop 
