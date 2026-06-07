@@ -30,7 +30,11 @@ public class topic2 {
         System.out.println("Enter your cgpa");
         double cgpa = sc.nextDouble();
 
-        System.out.println(name + " ki age " + age + " hai aur CGPA " + cgpa + " hai");
+        System.out.println(name + " ki age " + age + " hai aur CGPA " + cgpa + " hai");     //one line sollution
+        // System.out.println(name);
+        // System.out.println(age);
+        // System.out.println(cgpa);
+
 
         sc.close();
         

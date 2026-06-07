@@ -8,9 +8,7 @@ public class topic4 {
 
                 System.out.println(i);
             }
-        }
-        
-        
+        } 
 
     }
 }

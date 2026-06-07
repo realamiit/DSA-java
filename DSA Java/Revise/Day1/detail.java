@@ -6,17 +6,25 @@ public class detail {
     double cgpa;
 
     void features() {
-        System.out.println("meraa name " + name + "mera age " + age + "mera CGPA overall" + cgpa + " hai thanku");
+        System.out.println("meraa name : " + name + " mera age : " + age + " mera CGPA overall : " + cgpa + " hai thanku !");
     }
 
     public static void main(String[] args) {
         detail s = new detail();
 
+        detail s1 = new detail();
+
         s.name = "Amit";
         s.age = 22;
         s.cgpa = 8.8;
 
+        s1.name = "Navneet";
+        s1.age = 26;
+        s1.cgpa = 6.7;
+
+
         s.features();
+        s1.features();
 
     }
 }

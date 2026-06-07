@@ -12,3 +12,7 @@ public class topic5 {
     }
 
 }
+
+
+
+// ye for loop ki hlp se even no nikale  same hi hai hs cindation same hai aur while loop nhi use hai

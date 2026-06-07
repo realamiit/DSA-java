@@ -13,15 +13,17 @@ public class Car {
     }
 
     void details() {
-        System.out.println("Brand : " + brand + "Color : " + color + "Speeed : " + speed);
+        System.out.println(" Brand : " + brand + " Color : " + color + " Speeed : " + speed);
     }
 
     public static void main(String[] args) {
-        Car c1 = new Car("Maruti", "Red", 120);
-        Car c2 = new Car("Honda", "Brown", 130);
+        Car c1 = new Car("Maruti ", "Red ", 120);
+        Car c2 = new Car("Honda ", "Brown ", 130);
+        Car c3 = new Car("BMW ", "Peach ",300);
 
         c1.details();
         c2.details();
+        c3.details();
 
     }
 
