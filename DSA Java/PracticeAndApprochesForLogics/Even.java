@@ -10,6 +10,9 @@ public class Even {
         System.out.println("YOUR GIVEN NUMBER IS Even (True)");
        }else
      System.out.println("YOUR GIVEN NUMBER IS Odd (Flase)");
+
+     sc.close();
     }
+    
 
 }
