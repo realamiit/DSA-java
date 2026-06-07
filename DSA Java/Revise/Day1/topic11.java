@@ -44,6 +44,22 @@ public class topic11 {
     }
 }
 
-
 // to optimal 
-// first intiger arr liya to store the value of the intiger usnm 5 input liya jissee vo input store krne ke liye hme use krna hota hai 
+// first intiger arr liya to store the value of the intiger usnm 5 input liya
+//  jissee vo input store krne ke liye hme use krna hota hai for loop 
+// chlaya i =0 ;i<arr.length;i++; 
+// print krwayaya i+1 number store kiyua arr[i] sc.nextInt();
+// int sum = 0;
+// again sameloop chlaya taki fir se sum print krwaa skee  
+// to find the average = (double)sum/arr.length;
+// sum print kiya 
+// fir average print kiya
+// sc.close() :: to close  the scanner always remember it is a good pranctice in java code
+
+
+// brute force
+// input liya pehela number 
+// fir aise hi 5 baar input lenen ke baad int 
+// int[] arrname se array me sabhi partxs of array ke sare intiger ko
+// liya fir sum kiya sare intiger ko 
+// fir double average ka formula lgake frint krwa diya average than we get own input as well as
