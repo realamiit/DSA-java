@@ -1,10 +1,11 @@
+package DSALearn.collectionQueueAndSet;
 import java.util.*;
 
 // this is a normal Class in java 
 class Student {
 
     int id;
-    String name;   // ✅ YOU ARE MISSING THIS
+    String name;  
 
     Student(int id, String name) {
         this.id = id;

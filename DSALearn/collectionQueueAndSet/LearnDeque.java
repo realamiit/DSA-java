@@ -1,3 +1,4 @@
+package DSALearn.collectionQueueAndSet;
 import java.util.Queue;
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -31,6 +32,7 @@ public class LearnDeque {
         System.out.println(dq.peekLast());
 
         System.out.println(dq);
+        // sc.close();
     }
 
 }

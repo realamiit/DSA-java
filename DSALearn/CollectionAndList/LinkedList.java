@@ -1,16 +1,14 @@
-  import java.util.*;
-public class LearnVector {
-
-  
+package DSALearn.CollectionAndList;
+import java.util.*;
+public class LinkedList {
 
      public static void main(String[]args){
 
-        List<String> fruits = new Vector<>();
-
-       // adding the fruits in type of string  (it is also like add fruits with in your inventary and track easily)
+        List<String> fruits = new java.util.LinkedList<>();
 
         fruits.add("Mango");
         fruits.add("Pineapple");
+        fruits.add("Litchi");
         fruits.add("Banana");
         fruits.add("Orange");
 

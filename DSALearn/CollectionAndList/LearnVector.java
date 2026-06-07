@@ -1,15 +1,17 @@
- import java.util.*;
-public class ListMore {
+  package DSALearn.CollectionAndList;
+  import java.util.*;
+public class LearnVector {
 
-    public static void main(String[]args){
-        List<String>   fruits = new ArrayList<>();
+  
+
+     public static void main(String[]args){
+
+        List<String> fruits = new Vector<>();
+
+       // adding the fruits in type of string  (it is also like add fruits with in your inventary and track easily)
 
         fruits.add("Mango");
         fruits.add("Pineapple");
-        fruits.add("Litchi");
-        fruits.add("Apple");
-        fruits.add("Litchi");
-        fruits.add("Stroberry");
         fruits.add("Banana");
         fruits.add("Orange");
 

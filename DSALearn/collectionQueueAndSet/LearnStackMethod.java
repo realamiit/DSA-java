@@ -1,3 +1,4 @@
+package DSALearn.collectionQueueAndSet;
 import java.util.*;
 public class LearnStackMethod {
 

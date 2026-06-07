@@ -1,13 +1,16 @@
-import java.util.*;
-public class LinkedList {
+ package DSALearn.CollectionAndList;
+ import java.util.*;
+public class ListMore {
 
-     public static void main(String[]args){
-
-        List<String> fruits = new java.util.LinkedList<>();
+    public static void main(String[]args){
+        List<String>   fruits = new ArrayList<>();
 
         fruits.add("Mango");
         fruits.add("Pineapple");
         fruits.add("Litchi");
+        fruits.add("Apple");
+        fruits.add("Litchi");
+        fruits.add("Stroberry");
         fruits.add("Banana");
         fruits.add("Orange");
 

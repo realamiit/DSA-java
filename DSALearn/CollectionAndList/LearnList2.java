@@ -1,3 +1,4 @@
+package DSALearn.CollectionAndList;
 import java.util.*;
 public class LearnList2 {
     public static void main(String[]args){
