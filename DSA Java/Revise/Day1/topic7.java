@@ -10,3 +10,8 @@ public class topic7 {
     }
 
 }
+   
+//  usinge dowhile loop  
+
+// ye % 1 ,% 2 ,% 3 ,% 4,% 5   karoo 
+//  jb i<= 5 ho tn 

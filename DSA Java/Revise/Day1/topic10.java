@@ -10,3 +10,6 @@ public class topic10 {
         System.out.println("*");
     }
 }
+
+
+// print pattern 

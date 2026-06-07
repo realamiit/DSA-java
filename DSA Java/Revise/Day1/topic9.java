@@ -10,10 +10,10 @@ public class topic9 {
         System.out.println("Enter Your Name");
         String name = sc.nextLine();
 
-        System.out.println(name);
+        System.out.println(name);   
         System.out.println(name.length());
         System.out.println(name.toUpperCase());
-        System.out.println(name.charAt(0));
+        System.out.println(name.charAt(0)); 
 
         sc.close();
 
@@ -28,7 +28,7 @@ public class topic9 {
 
 // print charAt to know the character to know thethere Index of chat at which no
 // is Store on that place 
-// output is:
+// output is: 
 // Enter Your Name
 // Amit Gupta 
 // Amit Gupta 
