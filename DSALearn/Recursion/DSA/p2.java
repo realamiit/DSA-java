@@ -2,8 +2,10 @@ package DSALearn.Recursion.DSA;
 public class p2 {
     int factorial(int n){
         if(n <= 1)
-            return 1;
-        return n* factorial(n-1);
+            return 1;   // base case mtlb return 1
+
+        // recurcive call i: means he call itself 
+        return n* factorial(n-1);   
     }
     public static void main(String[] args) {
         p2 obj = new p2();
