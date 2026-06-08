@@ -10,14 +10,14 @@ public class p2 {
     public static void main(String[] args) {
         p2 obj = new p2();
         int result = obj.factorial(6);
-        System.out.println("Factorial" + result);
+        System.out.println("Factorial is :: " + result);
     }
 
 }
-<<<<<<< HEAD
 
 
-=======
+
+
 // create a class first in classs 
 // if n is greater than = 1  than base case is stop  recursion me base case bohot important hota hai kyki
 // hme ye define krna hiota hai n ki kha tk run krega nhi to hmare ram ki to whatt lg jayegii  agr function n=1 
@@ -39,4 +39,12 @@ public class p2 {
 // 6 factorial 5  = 720  
 
 //   like this we find the recursion
->>>>>>> 1290f129e3eca6f919f4352b8b04c63c713b8685
+
+
+
+// Rules — Dhyan se padh!
+// 1. Pehle notebook mein socho — phir type karo
+// 2. Hint maangne se pehle 5 min khud try karo
+// 3. Har problem ke baad complexity likho
+// 4. Copy mat karna — haath se type karo
+// 5. Galti ho toh bhi paste karo — main dekhta hoon
