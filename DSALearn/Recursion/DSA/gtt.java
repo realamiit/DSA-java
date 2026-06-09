@@ -1,18 +1,15 @@
-package DSALearn.Recursion.DSA;
+package DSA;
 
 public class gtt {
-    int fun(int n) {
-        if(i < n){
-            return ;
-            System.out.println(i);
-            fun(1-1);
-
+    static void fun(int n) {
+        if (n > 0) {
+            System.out.println(n);
+            fun(n - 1);
         }
-       public static void main(String[] args){
-        int n = 5;
-        fun(n);
-
-       }
     }
 
+    public static void main(String[] args) {
+        int n = 5;
+        fun(n);
+    }
 }
