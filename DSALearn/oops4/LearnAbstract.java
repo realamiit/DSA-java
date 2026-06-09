@@ -9,18 +9,13 @@ public class LearnAbstract {
         c1.honks();
     }
 }
-
 //   for ecample even we make single one Abstract class than  we have to make those class makes abstract also 
-
 //  abstract class Human{
 //     void speaks(){
 //     }
 //      abstract void eat();
 // }
-
 abstract class Vehicle{     //we cant use direct beacuse abstract class can't be access directly only we can use child class only in abstract class
-
-
 abstract void accelerate();
 abstract int breaks(int wheels);
 
@@ -33,10 +28,7 @@ void honks(){
 class Scooter extends Vehicle{
     @Override
     void accelerate(){
-
-
     }
-
     @Override
     int breaks(int wheels){
         return 0;
@@ -54,7 +46,6 @@ class Car extends Vehicle{
     int breaks(int wheels){
          System.out.println("Car breaks are puched");
         return wheels;
-
     }
     void honks(){
          System.out.println("Car is honks");
@@ -62,7 +53,6 @@ class Car extends Vehicle{
 }
 
 // output
-
 // Car is Accelerate
 // Car breaks are puched
 // Car is honks
