@@ -14,3 +14,9 @@ public class fiboncci {
     }
 
 }
+
+// complexity
+// Time : O(2^n)  har call 2 aur calls karta hai 
+// Space : O(n)  Stack depth n tak aati hai  
+
+//  time complexity :O(2^n) ye Slow hai! baad me hm ise Dynamic programming (DP) se fast  krege!!
