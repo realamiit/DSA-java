@@ -48,13 +48,17 @@ public class Student {
 // yha to main object call huyi hai mtlb hm object ko yha call krte ha after main() Student s = new Student (); 
 // than we classs there data in this method for the emplemaintation thats is 
 // after all we go with single line also  
-// object hai jo uskkuch aise smjhoo jaise tum koyii tumhare aas paas phone pen paper and bottel hoga than ye sb hoga ab ise kuch aise smjh tumhara phone tumhara hai ye object huva 
+// object hai jo uskkuch aise smjhoo jaise tum koyi tumhare aas paas phone pen paper and bottel hoga than ye sb
+//  hoga ab ise kuch aise smjh tumhara phone tumhara hai ye object huva 
 //  aur phone class huva 
-// suno suno iski help se smjho :  Student s = new Student();   Student =>  kon si class hai mtlb ye class hai jo question kr rhi hai for sure ki mai class hu kon si xclass 
+// suno suno iski help se smjho :  Student s = new Student();   Student =>  kon si class hai mtlb ye
+//  class hai jo question kr rhi hai for sure ki mai class hu kon si xclass 
 // S =>  ye eek object hai jisko name diya gya hai we can change it also mtlb name diya hai object ko 
 // new Student =>  ye btata hai ki nya object creat huva hai jo ki jiska name hai s also 
-// for better nunderstanding jaise hmne do alg alg object bnayi hai vaise hi hm alg alg object bnayi hai vaise hi Amit And Ashish dono alg alg student 
+// for better nunderstanding jaise hmne do alg alg object bnayi hai vaise hi hm alg alg
+//  object bnayi hai vaise hi Amit And Ashish dono alg alg student 
 // hai inki alg alg deaitls hogi bhle classs eeek hii hoo 
 // ye matter nhi krti they have there own different property many more things
 
-//  for sure after doing this we call object here for the output s.intreoduce();  yha object call ho rha hai jaise for the shon there output 
+//  for sure after doing this we call object here for the output s.intreoduce();  
+// yha object call ho rha hai jaise for the shown there output of the entire code 
