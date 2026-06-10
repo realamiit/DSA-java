@@ -10,7 +10,6 @@ public class printNumbers {
         printNumbers obj = new printNumbers();
         obj.printNumber(5);
     }
-
 }
 
 
@@ -30,6 +29,8 @@ public class printNumbers {
 //         printNumbers obj = new printNumbers();
 //         int print = sc.nextInt();
 //         obj.printNumber(print);
+
+//         sc.close();
 //     }
 
 // }

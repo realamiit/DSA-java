@@ -1,3 +1,4 @@
+package DSALearn.PracticeAndApprochesForLogics;
 import java.util.Scanner;
 public class Odd {
     public static void main(String[]args){
@@ -9,6 +10,11 @@ public class Odd {
             System.out.println("YOUR GIVEN NUMBER IS Odd (True)");
         }else
             System.out.println("YOUR GIVEN NUMBER IS Even (False)");
+            sc.close();
     }
 
 }
+
+
+// in this condation we take a user input in form of intiger value 
+
