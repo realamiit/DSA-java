@@ -36,7 +36,7 @@ public class topic2 {
         // System.out.println(cgpa);
 
 
-        sc.close();
+        sc.close();  // close scanner class 
         
     }
 
@@ -57,4 +57,5 @@ public class topic2 {
 // uske baad me  System.out.println( name + age + cgpa); 
 // iske bad  hme apna output mil jayega eekdm ache see 
 // isi ke sath hm log sikh gye USER INPUT LENA thanku ("-_-")
+// cs.close(); to close the scanner class it is a good practice every situvation your code looks clean and neet
 
