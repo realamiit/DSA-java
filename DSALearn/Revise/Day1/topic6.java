@@ -3,7 +3,7 @@ package Day1;
 public class topic6 {
     public static void main(String[] args) {
         int i = 1;
-        while (i <= 10) {
+        while (i <= 12) {
             if (i % 2 == 0) {
                 System.out.println(i);
 
@@ -21,3 +21,4 @@ public class topic6 {
 // curlyu bracket ke baad if confito\ion liya yadi (i %2 == 0) tabhi sout 
 // mtlb System .out.println(i) value print kr dege
 //  and if condation ke baad i++ jarur krege to increase the  value 
+//iska thi sa,e concept hai but loog nhi  rga hai yha condation verify krega than 
