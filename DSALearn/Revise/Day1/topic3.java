@@ -21,7 +21,7 @@ public class topic3 {
             System.out.println("Fail");
         }
 
-        sc.close();
+        sc.close(); // close the scanner class 
 
     }
 
