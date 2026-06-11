@@ -8,17 +8,17 @@ public class square {
     }
     public static void main(String[] args) {
         square obj = new square();
-         int result = obj.power(2,5);
+         int result = obj.power(2,6);
          System.out.println(result);
     }
 }
 
-// (2,5) = 2*2*2*2*2 = 32  this is the Expected ouutput
+// (2,5) = 2*2*2*2*2*2 = 64  this is the Expected ouutput
 // cheak the condation after 
 // shown there base case  ydi n == 0 than return 1 
 // than after done it call recursive Function return x * power(x * n-1); than close tbe brackat
 //  than go to  main and make an object 
-// int result = obj.power the power is the name of method (x:2,n:5 ) aur ye dono bracket me both are parameater
+// int result = obj.power the power is the name of method (x:2,n:6 ) aur ye dono bracket me both are parameater
 //  after understanding this 
 //  go for the System.out.println(result) print krwayege 
 //  yha ya in this line System ka matlab hai => basickly ye java ki inbuild class hai aur kuch nhi 
