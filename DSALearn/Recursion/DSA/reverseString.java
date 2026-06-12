@@ -34,5 +34,14 @@ public class reverseString {
 // the base case mtlb yhi stop hogaa
 // than after doing this creat Recurcive Function method return
 // reverse(s,r+s.charAt(i),i-1) ;
-//
-//
+// than close the curely bracket created with the class
+//  than ve go for the public static void main 
+// here  we take for user input of scanner the class name is scan we can write anything 
+//  and after we createing this Scanner class we have to import the import java.util.scanner;
+// fir print krwaya terminal me show krega System.out.println("Enter your String thode we want to reverse it");
+// than String s = scan.nextline(); this is only for the String value it cant work on intiger value for sure 
+// the creat method to call it the name is same to public class  reverseString obj = new reverseString ();
+// than we print the result system.out.println(obj.revese(s, "",s.length()-1));
+//  than if u remember we take user input Scanner class than here we have to close it as well as to using scan.close();
+// than close the both bracket than go for run  
+// after giveing a String value for example "Amit" the output is timA thats it keeep learning keep coding 
