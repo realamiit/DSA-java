@@ -29,4 +29,4 @@ public class square {
 // println => he is always saying ki print if u want somthing 
 // and go out of this particular line it means print and go to next line 
 // (result) => the result is also return the those we want to
-//  print anything or expected things also
+// print anything or expected things also
