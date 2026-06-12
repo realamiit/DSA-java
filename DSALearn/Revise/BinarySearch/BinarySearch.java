@@ -10,3 +10,8 @@ public class BinarySearch {
     }
 
 }
+
+
+// complexity
+//  time : O(n) because baar baar loop chl rha hai 
+// Space : O(1) no extra Space use while the Duiring the Compilation
