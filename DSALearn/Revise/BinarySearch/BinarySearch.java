@@ -1,36 +1,33 @@
 package BinarySearch;
 
 public class BinarySearch {
-//     public static void main(String[] args) {
-//         int[] arr = {10 ,45, 7,89,23};
-//         int target = 89;
-//         for(int i =0; i < arr.length; i++){
-//             System.out.println(arr[i] == target);
-//         }
-//     }
-
-// }
-
-
     public static void main(String[] args) {
         int[] arr = {10 ,45, 7,89,23};
         int target = 89;
         for(int i =0; i < arr.length; i++){
-            if(arr[i] == target){
-              System.out.println(i);
-              return;
-            }   
+            System.out.println(arr[i] == target);
         }
-        System.out.println(-1);
     }
 
 }
-// complexity
-//  time : O(n) leanera Search slow hai 
-// Space : O(1) no extra Space use while the Duiring the Compilat
+
+
+//     public static void main(String[] args) {
+//         int[] arr = {10 ,45, 7,89,23};
+//         int target = 89;
+//         for(int i =0; i < arr.length; i++){
+//             if(arr[i] == target){
+//               System.out.println(i);
+//               return;
+//             }   
+//         }
+//         System.out.println(-1);
+//     }
+
+// }
 
 // complexity
-//  time : O(n) because baar baar loop chl rha hai 
+//  time : O(n) because baar baar loop chl rha hai (leanera Search slow hai )
 // Space : O(1) no extra Space use while the Duiring the Compilation
 
 //ye biinarySearch hai dekho Agar 100 logo me  agar hme Amit ko dhudhana hai to 
@@ -55,4 +52,13 @@ public class BinarySearch {
 //  i++ krne ka mtlb ki eek indexing cheak hone ke baad vo next index pe jayega thats why we take mtlb 10 ke bad ,45 ->7 ... );
 // than we go to implement are logic than go to the System.out.println(aar[i]==target)
 //  than after this logic hmara targeted valu mil jayega this is the behind the logic of the code 
+//  aur ha the output in false peeli bar me nhi mila false same issu 3 sari baar me mila than vha true return hoga baki sare false  hoge 
+
+
+// second intigrate the if else condation (same logic usme hoga like arr[i] == target){
+// than hm log system.out.println krke [i] fir return krwa dege fir hm } bar  jake system .out.peintln(-1) me 
+//  its work like else if execution is true tha exit other wise false
+
+
+
 
