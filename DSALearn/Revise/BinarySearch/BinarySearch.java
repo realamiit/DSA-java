@@ -1,16 +1,33 @@
 package BinarySearch;
 
 public class BinarySearch {
+//     public static void main(String[] args) {
+//         int[] arr = {10 ,45, 7,89,23};
+//         int target = 89;
+//         for(int i =0; i < arr.length; i++){
+//             System.out.println(arr[i] == target);
+//         }
+//     }
+
+// }
+
+
     public static void main(String[] args) {
         int[] arr = {10 ,45, 7,89,23};
         int target = 89;
         for(int i =0; i < arr.length; i++){
-            System.out.println(arr[i] == target);
+            if(arr[i] == target){
+              System.out.println(i);
+              return;
+            }   
         }
+        System.out.println(-1);
     }
 
 }
-
+// complexity
+//  time : O(n) leanera Search slow hai 
+// Space : O(1) no extra Space use while the Duiring the Compilat
 
 // complexity
 //  time : O(n) because baar baar loop chl rha hai 
