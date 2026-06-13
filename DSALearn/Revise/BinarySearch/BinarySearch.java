@@ -36,5 +36,6 @@ public class BinarySearch {
 // uske again i >= num.length yha hamri i ki jo valu hai vo badi hogi than arr.length mtalb
 //  ass me jitni bhi indixing hogi mtlb jitne vhi value hai sbke  no ofko dekha fir i++ kar diya
 //  i++ krne ka mtlb ki eek indexing cheak hone ke baad vo next index pe jayega thats why we take mtlb 10 ke bad ,45 ->7 ... );
-// than we go to implement are logic 
+// than we go to implement are logic than go to the System.out.println(aar[i]==target)
+//  than after this logic hmara targeted valu mil jayega this is the behind the logic of the code 
 
