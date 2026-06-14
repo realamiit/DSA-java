@@ -12,7 +12,7 @@ public class Student {
         System.out.println("mera Name : " + Name + " , mera rollno : , " +rollNo + " , mera marks : , " + marks + ", My result" + result);
     }
 
-    // main object lass hai ye
+    // main object lass hai yeee
     public static void main(String[] args) {
         Student s = new Student(); // object is here
         Student s1 = new Student();
