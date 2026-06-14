@@ -1,30 +1,29 @@
 package BinarySearch;
 
 public class BinarySearch {
-    public static void main(String[] args) {
-        int[] arr = {10 ,45, 7,89,23};
-        int target = 89;
-        for(int i =0; i < arr.length; i++){
-            System.out.println(arr[i] == target);
-        }
-    }
-
-}
-
-
 //     public static void main(String[] args) {
 //         int[] arr = {10 ,45, 7,89,23};
 //         int target = 89;
 //         for(int i =0; i < arr.length; i++){
-//             if(arr[i] == target){
-//               System.out.println(i);
-//               return;
-//             }   
+//             System.out.println(arr[i] == target);
 //         }
-//         System.out.println(-1);
 //     }
 
 // }
+
+    public static void main(String[] args) {
+        int[] arr = {10 ,45, 7,22,44,91,23};
+        int target = 23;
+        for(int i =0; i < arr.length; i++){
+            if(arr[i] == target){
+              System.out.println("Index no "+i);
+              return;
+            }   
+        }
+        System.out.println(-1);
+    }
+
+}
 
 // complexity
 //  time : O(n) because baar baar loop chl rha hai (leanera Search slow hai )
