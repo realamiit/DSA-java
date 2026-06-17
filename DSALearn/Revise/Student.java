@@ -4,12 +4,13 @@ public class Student {
     String Name;
     int rollNo;
     int marks;
+    int studentId;
     String result;
 
     // ye method hai
 
     void introduce() {
-        System.out.println("mera Name : " + Name + " , mera rollno : , " +rollNo + " , mera marks : , " + marks + ", My result" + result);
+        System.out.println("mera Name : " + Name + " , mera rollno : , " +rollNo + " , mera marks : , " + marks + ", My result" + result+"meri ID : " + studentId);
     }
 
     // main object lass hai ye
@@ -20,11 +21,13 @@ public class Student {
         s1.Name = "Amit"; // this is object
         s1.rollNo = 22;
         s1.marks = 78;
-        s1.result = 
+        s1.result = "Pass";
+        s1.studentId = 231234;
 
         s2.Name = "Ashish";
         s2.rollNo = 31;
         s2.marks = 82;
+        s2.studentId = 23123456;
 
         s1.introduce(); // here calling onject here
         s2.introduce();
