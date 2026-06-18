@@ -6,3 +6,5 @@ public class topic7 {
         }
     }
 }
+
+// print pattern also 
