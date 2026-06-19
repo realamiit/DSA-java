@@ -2,7 +2,7 @@ package BinarySearch;
 
 public class BinarySearch1 {
     int[] arr = {2,5,8,12,16,23,38,45};
-    int target = 23;
+    int target = 38;
     int left = 0;
     int right = arr.length - 1;
 
