@@ -18,4 +18,7 @@ public class BinarySearch2 {
 
 }
 
-// 
+// array banayaaa 9 size ka usme theer integers liya 
+// than set a target 5
+//  fir main banaya main ke unde ka code kuch is trh hai 
+// jo hmne class bnayi hai n 
