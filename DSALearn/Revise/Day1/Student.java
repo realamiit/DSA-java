@@ -1,3 +1,4 @@
+package Day1;
 public class Student {
 
     // ye field hai class ke under and main ke bahr
