@@ -14,8 +14,8 @@ public class countNegativeAndPositive {
             }
             
         }
-        System.out.println("Mere paas itne Possitive Number's hain: "+possitive);
-            System.out.println("Mere paas itne Negative Number's hain: "+negative);
+        System.out.println("Mere paas "+ possitive + " Possitive Number's hain");
+            System.out.println("Mere paas "+ negative +" Negative Number's hain");
     }
 
 }
