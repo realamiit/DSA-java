@@ -13,7 +13,7 @@ public class findMax {
     }
 
 }
-//  complexicity
+//  Complexity
 // time : O(n) Array ka element baar baar cheak ho rha hai 
 // space: O(1)  because sirf max variable extra use kr rha hai space, koyi array koyi structure nhi le rha 
 
