@@ -2,7 +2,7 @@ package Day1.practice;
 
 public class countNegativeAndPositive {
     public static void main(String[] args) {
-        int[] arr = {10, -5, 3, -8, 7};
+        int[] arr = {10, -5, 3, -8, 7, -4, 9, 1, -3, 12 };
         int possitive = 0;
         int negative = 0;
         
