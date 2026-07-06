@@ -9,3 +9,7 @@ public class printStudentsMarks {
     }
 
 }
+
+// complexity 
+// Time: O(n) 
+// Space: O(1)
