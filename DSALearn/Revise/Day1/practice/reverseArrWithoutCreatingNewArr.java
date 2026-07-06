@@ -10,3 +10,7 @@ public class reverseArrWithoutCreatingNewArr {
     }
 
 }
+
+
+// time: O(n)  for loop ki wjh  se 
+// space: O(1)no  use extra space its constant 
