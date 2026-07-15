@@ -1,4 +1,6 @@
-public class FindSubstringInAString {
+package DSA.StringPractice;
+
+public class FindSubstringInAString  {
     public static void main(String[] args) {
         String s1 = "follobuilding.programamit";
         String s2 = "building.program";

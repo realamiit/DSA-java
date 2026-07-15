@@ -28,8 +28,8 @@
         /* Glassmorphism UI */
         .glass-panel {
             background: rgba(20, 20, 20, 0.6);
-            backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.1);
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
         }
@@ -88,11 +88,11 @@
 
             <!-- Color Picker -->
             <div class="glass-panel rounded-xl p-2 flex gap-2">
-                <button onclick="app.setColor(0xff3366)" class="w-6 h-6 rounded-full bg-[#ff3366] hover:scale-110 transition-transform border border-white/20"></button>
-                <button onclick="app.setColor(0x33ccff)" class="w-6 h-6 rounded-full bg-[#33ccff] hover:scale-110 transition-transform border border-white/20"></button>
-                <button onclick="app.setColor(0xffcc33)" class="w-6 h-6 rounded-full bg-[#ffcc33] hover:scale-110 transition-transform border border-white/20"></button>
-                <button onclick="app.setColor(0xcc33ff)" class="w-6 h-6 rounded-full bg-[#cc33ff] hover:scale-110 transition-transform border border-white/20"></button>
-                <button onclick="app.setColor(0xffffff)" class="w-6 h-6 rounded-full bg-white hover:scale-110 transition-transform border border-white/20"></button>
+                <button title="Set color to pink" aria-label="Set color to pink" onclick="app.setColor(0xff3366)" class="w-6 h-6 rounded-full bg-[#ff3366] hover:scale-110 transition-transform border border-white/20"></button>
+                <button title="Set color to blue" aria-label="Set color to blue" onclick="app.setColor(0x33ccff)" class="w-6 h-6 rounded-full bg-[#33ccff] hover:scale-110 transition-transform border border-white/20"></button>
+                <button title="Set color to yellow" aria-label="Set color to yellow" onclick="app.setColor(0xffcc33)" class="w-6 h-6 rounded-full bg-[#ffcc33] hover:scale-110 transition-transform border border-white/20"></button>
+                <button title="Set color to purple" aria-label="Set color to purple" onclick="app.setColor(0xcc33ff)" class="w-6 h-6 rounded-full bg-[#cc33ff] hover:scale-110 transition-transform border border-white/20"></button>
+                <button title="Set color to white" aria-label="Set color to white" onclick="app.setColor(0xffffff)" class="w-6 h-6 rounded-full bg-white hover:scale-110 transition-transform border border-white/20"></button>
             </div>
         </div>
 
