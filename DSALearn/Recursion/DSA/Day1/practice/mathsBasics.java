@@ -1,4 +1,4 @@
-package DSA.Day1.practice;
+package Day1.practice;
 
 public class mathsBasics {
     public static void main(String[] args) {

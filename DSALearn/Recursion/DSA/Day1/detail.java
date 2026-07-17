@@ -1,4 +1,4 @@
-package DSA.Day1;
+package Day1;
 
 public class detail {
     String name;
