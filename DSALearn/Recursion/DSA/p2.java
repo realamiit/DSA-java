@@ -1,4 +1,4 @@
-package DSA; 
+ 
 public class p2 {
     int factorial(int n){
         if(n <= 1)

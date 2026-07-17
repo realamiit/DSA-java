@@ -1,4 +1,3 @@
-package DSA;
 
 public class gtt {
     static void fun(int n) {

@@ -1,4 +1,3 @@
-package DSA;
 public class AddNum {
     int addNumber(int n){
        if(n <= 0)  // base case  

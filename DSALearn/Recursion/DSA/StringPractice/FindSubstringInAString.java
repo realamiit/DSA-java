@@ -1,4 +1,4 @@
-package DSA.StringPractice;
+package StringPractice;
 
 public class FindSubstringInAString  {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DSALearn.collectionQueueAndSet;
+package DSALearn.CollectionAndList.collectionQueueAndSet;
 import java.util.*;
 public class LearnSet {
     public static void main(String[]args){

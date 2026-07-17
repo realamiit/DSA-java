@@ -1,5 +1,3 @@
-package DSA;
-
 public class fiboncci {
     int fib(int n){
         if(n==0) return 0;  //  base Case 

@@ -1,5 +1,3 @@
-package DSA;
-
 public class addNumber {
 //     void printName(String name, int n) {
 //     if(n<=0) return ; // base case 

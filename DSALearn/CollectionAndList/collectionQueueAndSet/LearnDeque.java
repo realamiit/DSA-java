@@ -1,7 +1,6 @@
-package DSALearn.collectionQueueAndSet;
-import java.util.Queue;
-import java.util.ArrayDeque;
-import java.util.Deque;
+package DSALearn.CollectionAndList.collectionQueueAndSet;
+
+import java.util.*;
 
 
 public class LearnDeque {

@@ -1,5 +1,3 @@
-package DSA;
-
 public class printNumbers {
     public void printNumber(int n){
     if(n == 0) return;

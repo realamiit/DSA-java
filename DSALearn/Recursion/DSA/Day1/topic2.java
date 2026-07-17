@@ -1,4 +1,4 @@
-package DSA.Day1;
+package Day1;
 import java.util.*;
 public class topic2 {
     public static void main(String[] args) {

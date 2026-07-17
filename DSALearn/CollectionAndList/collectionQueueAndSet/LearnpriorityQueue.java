@@ -1,4 +1,4 @@
-package DSALearn.collectionQueueAndSet;
+package DSALearn.CollectionAndList.collectionQueueAndSet;
 import java.util.*;
 
 public class LearnpriorityQueue {

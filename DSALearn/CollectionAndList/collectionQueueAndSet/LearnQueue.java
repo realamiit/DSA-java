@@ -1,5 +1,5 @@
 // imoprt java.util.*;
-package DSALearn.collectionQueueAndSet;
+package DSALearn.CollectionAndList.collectionQueueAndSet;
 import java.util.Queue;
 import java.util.LinkedList;
 
