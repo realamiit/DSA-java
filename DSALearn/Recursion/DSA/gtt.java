@@ -8,7 +8,7 @@ public class gtt {
     }
 
     public static void main(String[] args) {
-        int n = 5;
+        int n = 8;
         fun(n);
     }
 }
