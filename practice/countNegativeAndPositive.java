@@ -1,4 +1,4 @@
-package Day1.practice;
+package practice;
 
 public class countNegativeAndPositive {
     public static void main(String[] args) {

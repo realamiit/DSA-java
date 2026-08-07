@@ -1,4 +1,4 @@
-package Day1.practice;
+package practice;
 
 public class simpleIntrest {
     public static void main(String[] args) {
