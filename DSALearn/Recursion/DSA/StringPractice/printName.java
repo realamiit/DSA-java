@@ -16,5 +16,7 @@ public class printName {
         System.out.println("Enter how many times to print");
         int n = sc.nextInt();
         printNames(name, n);
+
+        sc.close();
     }
 }
