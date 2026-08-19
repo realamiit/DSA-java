@@ -9,7 +9,7 @@ public class pattern03 {
                 System.out.print("*");
             }
             System.out.println();
-        }
-    }
+        };
+    };
 
-}
+};
