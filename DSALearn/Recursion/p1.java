@@ -12,8 +12,8 @@ public class p1 {
     }
 }
 
-// first creat a class to oprate the function
-// first we go and cheak and verify the base case if mtlb
+// first create a class to oprate the function
+// first we go and cheak and verify the base case if (MTLb) 
 // ydii (n==0)than the operatio will not executed
 // and return nothing even clos the operation this is always repeat every time
 // pehele print n= 5 0 nhi hai ko cal;l kiya kyuki prin (n-1) tha to print 4
