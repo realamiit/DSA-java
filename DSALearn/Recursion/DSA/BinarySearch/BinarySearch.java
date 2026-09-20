@@ -1,6 +1,19 @@
 package BinarySearch;
 
 public class BinarySearch {
+
+public static int Binary_Search(int arr[], int target) {
+     for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                System.out.println("Index no " + i);
+                return 1;
+            }
+        }
+        System.out.println(-1);
+            return -1;
+}
+
+
     // public static void main(String[] args) {
     // int[] arr = {10 ,45, 7,89,23};
     // int target = 89;
@@ -14,13 +27,10 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = { 10, 45, 7, 22, 44, 91, 23 };
         int target = 23;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == target) {
-                System.out.println("Index no " + i);
-                return;
-            }
-        }
-        System.out.println(-1);
+
+    
+        System.out.println(Binary_Search(arr, target));
+       
     }
 
 }
