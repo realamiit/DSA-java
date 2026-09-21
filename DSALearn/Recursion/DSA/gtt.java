@@ -1,4 +1,3 @@
-
 public class gtt {
     static void fun(int n) {
         if (n > 0) {

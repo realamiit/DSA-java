@@ -16,8 +16,6 @@ public class p2 {
 }
 
 
-
-
 // create a class first in classs 
 // if n is greater than = 1  than base case is stop  recursion me base case bohot important hota hai kyki
 // hme ye define krna hiota hai n ki kha tk run krega nhi to hmare ram ki to whatt lg jayegii  agr function n=1 
@@ -39,8 +37,6 @@ public class p2 {
 // 6 factorial 5  = 720  
 
 //   like this we find the recursion
-
-
 
 // Rules — Dhyan se padh!
 // 1. Pehle notebook mein socho — phir type karo
