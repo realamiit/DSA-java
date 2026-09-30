@@ -2,7 +2,7 @@ public class Math01 {
    // basics maths
    
     public static void main(String[] args) {
-                int num1=10;
+                int num1=18;
         int num2 = 10;
         
         int num3 = num1+num2;
