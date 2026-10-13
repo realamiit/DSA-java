@@ -7,18 +7,18 @@ public class MainClass {
 
         System.out.println(a[4]);
 
-        System.out.println("Hello guyyy");
+        System.out.println("Hello gaii");
 
         try{
             System.out.println(a[7]);
         } catch (ArrayIndexOutOfBoundsException e){
-            System.out.println("i am exception jere right now");
+            System.out.println("i am exception here right now");
             
 //             we can put more (multipal) catch blocks 
-        } catch(ArithmeticException e){
-            System.out.println(e.getStackTrace());
-            System.out.println(e.getMessage());
-            System.out.println(e);           //here call auto toString() Calling
+        } catch(ArithmeticException n){
+            System.out.println(n.getStackTrace());
+            System.out.println(n.getMessage());
+            System.out.println(n);      //here call auto toString() Calling
 
 
         }
