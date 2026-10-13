@@ -3,9 +3,12 @@ package src.DSA.DSALearn.GenericsAndWrapperClasses.learnexecptionHandling;
 public class MainClass {
     public static void main (String[] args){
 
-        int a[] = new int[5];
+        // int a[] = new int[5];
+        int a[] = {44,55,66,77,44,44,33,33,32,65};
 
-        System.out.println(a[4]);
+        System.out.println(a[8]);
+        a[5] = 90;
+        System.out.println(a[5]);
 
         System.out.println("Hello gaii");
 
