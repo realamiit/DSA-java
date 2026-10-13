@@ -1,0 +1,17 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE / editor
+.idea/
+.vscode/
+.DS_Store
+
+# Local generated files
+input.txt
+output.txt
+bin/
+out/
+target/

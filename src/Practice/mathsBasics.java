@@ -1,0 +1,15 @@
+package src.Practice;
+
+public class mathsBasics {
+    public static void main(String[] args) {
+        int n = 50;
+        for (int i = 1; i <= n; i++) {
+            if (i % 3 == 0) {
+                System.out.println(i);
+
+            }
+            
+        }
+    }
+}
+
