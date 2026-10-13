@@ -11,22 +11,20 @@ public class CustomExceptions {
 
         try {
             if (age > 100) {
-                // throw new MyException("My Error is this");
-                throw new ArithmeticException("More than 100 not Allowed");
+                throw new MyException("More than 100 not Allowed");
+            } else {
+                System.out.println("Valid age: " + age);
             }
-        } catch (Exception e) { // here catch the output
-            System.out.println(e);
+        } catch (MyException e) {
+            System.out.println("Error: " + e.getMessage());
+        } finally {
+            sc.close();
         }
-
-        sc.close();
     }
 
-    class MyException extends Exception {
-
+    static class MyException extends Exception {
         public MyException(String message) {
             super(message);
-
         }
-
     }
 }
