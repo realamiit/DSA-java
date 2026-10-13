@@ -7,10 +7,12 @@ public class MainClass {
         int a[] = {44,55,66,77,44,44,33,33,32,65};
 
         System.out.println(a[8]);
-        a[5] = 90;
+        a[5] = 90;  // INDEX 5 PE ADD HOGA 44 to 90
+        a[8] = 10;   // same here 
         System.out.println(a[5]);
+        System.out.println(a[8]);
 
-        System.out.println("Hello gaii");
+        System.out.println("Radha Radha ");
 
         try{
             System.out.println(a[7]);
