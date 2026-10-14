@@ -20,3 +20,6 @@ class Solution {
         return arr;
     }
 }
+
+// time complexity is O(n)  bexause 32 bit is constant value
+// space complexity is O(n)
