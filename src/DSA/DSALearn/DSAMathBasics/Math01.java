@@ -1,6 +1,5 @@
 package src.DSA.DSALearn.DSAMathBasics;
 public class Math01 {
-    // Basic math operations
 
     public static void main(String[] args) {
         int num1 = 10;
