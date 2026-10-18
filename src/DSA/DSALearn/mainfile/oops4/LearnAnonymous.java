@@ -6,7 +6,7 @@ public class LearnAnonymous {
         Outerclass obj = new Outerclass(){
             @Override
             public void outerMethod(){
-                System.out.println("Outer method overridden");
+                System.out.println("Outer Method Overridden");
             }
         };
 
@@ -33,7 +33,7 @@ public class LearnAnonymous {
         // Short lambda
         WalkAble obj3 = (steps) -> 2 * steps;
 
-        System.out.println(obj3.walks(8));
+        System.out.println(obj3.walks(12));
     }
 }
 interface WalkAble {
@@ -52,6 +52,6 @@ interface SuperInterface {
 }
 
 
-//        ******output*******
+//   ******output*******
 // Walked 5 steps
 // 16
