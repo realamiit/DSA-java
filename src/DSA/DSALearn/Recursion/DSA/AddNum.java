@@ -9,7 +9,7 @@ public class AddNum {
         AddNum obj = new AddNum();
 
         int result = obj.addNumber(5);
-        System.out.println("Added number is : "+result);
+        System.out.println("Added number is : => "+result);
 
      }
 }
