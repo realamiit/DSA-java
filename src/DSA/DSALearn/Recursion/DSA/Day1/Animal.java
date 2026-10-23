@@ -58,10 +58,7 @@ class Elephant extends Animal {
 // Animal
 // Animal kha rha hai
 
-// 🎯 DSA SHURU — RECURSION!
-// Kal fresh mind se aana — aaj notebook mein sirf itna likh:
+
 // Recursion = function jo khud ko call kare
 // Base case = jahan rok do
 // Recursive case = chota karte jao
-// Kal seedha code karenge — koi theory nahi, seedha problems! 🚀
-// Aaj ke liye DONE! Rest karo! 😄
