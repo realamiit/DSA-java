@@ -23,4 +23,8 @@ This repository is organized by topic so the root folder stays clean and the Jav
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/realamiit/DSA-java/tree/master/0278-first-bad-version) |
+## String
+|  |
+| ------- |
+| [0058-length-of-last-word](https://github.com/realamiit/DSA-java/tree/master/0058-length-of-last-word) |
 <!---LeetCode Topics End-->
