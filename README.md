@@ -27,4 +27,12 @@ This repository is organized by topic so the root folder stays clean and the Jav
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/realamiit/DSA-java/tree/master/0058-length-of-last-word) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0338-counting-bits](https://github.com/realamiit/DSA-java/tree/master/0338-counting-bits) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0338-counting-bits](https://github.com/realamiit/DSA-java/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
