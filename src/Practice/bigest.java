@@ -4,7 +4,7 @@ public class bigest {
     public static void main(String[] args) {
         int n1=24;
         int n2=7;
-        int n3=110;
+        int n3=10;
         if(n1>n2){
             if(n1>n3){
                 System.out.println(n1);
