@@ -3,7 +3,7 @@ package src.Practice;
 
 public class bigest {
 
-    public static void Biggest(int n1, int n2, int n3) {
+    public static void findBiggest(int n1, int n2, int n3) {
 
         if(n1>n2){
             if(n1>n3){
@@ -18,6 +18,6 @@ public class bigest {
         } 
     }
     public static void main(String[] args) {
-        Systen.out.println(Biggest(24, 22, 15));
+        findBiggest(24, 22, 15, 30);
     }
 }
