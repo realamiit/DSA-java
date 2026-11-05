@@ -21,7 +21,7 @@ public class topic1 {
 
 }
 
-//  dry run to better understanding
+// Dry Run to Detter understanding
 // i=0: num=1, sum=1
 // i=1: num=2, sum=3
 // i=2: num=3, sum=6
@@ -29,6 +29,6 @@ public class topic1 {
 // i=4: num=5, sum=15
 // Loop khatam → print "Sum: 15" → average = 15/5.0 = 3.0
 
-// complexicity 
+// Complexicity
 // time : O(n)  => 5 numbers ke liye loop ek baar chal raha hai (n = number of inputs)
 // space : O(1) => Sirf sum, num, average — fixed variables, koi extra array nahi.
