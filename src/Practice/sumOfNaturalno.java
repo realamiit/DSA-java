@@ -8,7 +8,7 @@ public class sumOfNaturalno {
         while(val <= n){
             sum = sum + val;
             val = val + 1;
-            System.out.println(sum);
+            System.out.println("Sum of many type of is : "+sum);
         }
         
     }

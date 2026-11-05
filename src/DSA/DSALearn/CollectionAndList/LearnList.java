@@ -2,7 +2,7 @@ package src.DSA.DSALearn.CollectionAndList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ArrayList;
-    // import java.util.*;
+    import java.util.*;
 public class LearnList {
     public static void main(String[]args){
         // int a[] = newInt[5];            // this one is also static we can't change anything  
@@ -38,12 +38,12 @@ public class LearnList {
         System.out.println("I am removeing this Element from this Array : "+list);
 
 
-        // list.removeAll(list2);          // for union remove
-        // list.retainAll(list2);                 //For intersection remove
-        // list.clear();                      //for clear list use this keyword
+        list.removeAll(list2);          // for union remove
+        list.retainAll(list2);                 //For intersection remove
+        list.clear();                      //for clear list use this keyword
 
         Object a[] = list.toArray();
-        // Integer temp = (Integer) e;
+        Integer temp = (Integer) e;
         for(Object e: a){
             System.out.println(e);
         }

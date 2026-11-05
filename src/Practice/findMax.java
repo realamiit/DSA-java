@@ -5,7 +5,7 @@ public class findMax {
         int[] num = {12, 45, 7, 89, 23, 94, 88, 199 };
         int max = num[0];
         for(int i=0; i<num.length; i++){
-            if(num[i] > max){      // if we go with < we get smallest num in array
+            if(num[i] > max){      // if we go with < we get smallest num in arrayy
                 max=num[i]; 
             }
         }
@@ -15,7 +15,7 @@ public class findMax {
 }
 //  Complexity
 // time : O(n) Array ka element baar baar cheak ho rha hai 
-// space: O(1)  because sirf max variable extra use kr rha hai space, koyi array koyi structure nhi le rha 
+// space: O(1)  becauseee sirf max variable extra use kr rha hai space, koyi array koyi structure nhi le rha 
 
 // Dry run:
 // max = num[0] = 12
