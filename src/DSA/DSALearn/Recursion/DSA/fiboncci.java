@@ -1,6 +1,6 @@
 package src.DSA.DSALearn.Recursion.DSA;
 public class fiboncci {
-    int fib(int n){
+    int fibonchee(int n){
         if(n==0) return 0;  //  base Case 
         if(n==1) return 1;
 
@@ -8,7 +8,7 @@ public class fiboncci {
     }
     public static void main(String[] args) {  // main 
         fiboncci obj = new fiboncci();   
-        int result = obj.fib(5);
+        int result = obj.fibonchee(5);
         System.out.println(result);
     }
 
