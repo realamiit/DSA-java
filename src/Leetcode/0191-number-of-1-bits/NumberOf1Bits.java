@@ -11,3 +11,6 @@ class Solution {
     }
   }
 }
+
+
+// find the number of bit
