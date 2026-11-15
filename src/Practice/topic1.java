@@ -21,7 +21,7 @@ public class topic1 {
 
 }
 
-// Dry Run to Detter understanding
+// Dry Run to Detter understand
 // i=0: num=1, sum=1
 // i=1: num=2, sum=3
 // i=2: num=3, sum=6
