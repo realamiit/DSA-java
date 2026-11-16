@@ -30,4 +30,4 @@ public class Solution extends VersionControl {
     }   
     
 }
-// Time Complexity is:  O(log n) and Oprimal sollution is we can't Optemized Actualy
+// Time Complexity is:  O(log n) and Optimal sollution is we can't Optemized Actualy
