@@ -2,10 +2,12 @@ package src.Practice;
 
 public class splitString {
     public static void main(String[] args) {
-        String str = "Amit is here An yone Wan ts to met hi m ";
+        String str = "Amit is here An yone Wants to met him ";
+        String strr = "Here is the ";
 
         String[] words = str.split(" ");
         System.out.println(words.length);
+        System.out.println(strr);
         System.out.println(str);
     }
 
