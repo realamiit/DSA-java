@@ -17,6 +17,10 @@ public class bigest {
         } 
     }
     public static void main(String[] args) {
-        findBiggest(24, 22, 15, 30, 89, 8);
+        int n1 = 10;
+        int n2 = 20;
+        int n3 = 30;
+        int result = Math.max(n1, Math.max(n2, n3));
+        System.out.println("Biggest number is: "+result);
     }
 }
